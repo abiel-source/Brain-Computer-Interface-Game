@@ -50,7 +50,8 @@ Throughout my experimentation process, I found the following general cases:
 3) models with multiple hidden layers AND multiple hidden neurons did perform adequately
 4) models with minimal hidden layers AND multiple hidden neurons did ??? (next experiment)
 
-for case 3 however, it must be noted that when the number of hidden neurons were exaggerated and each uniformly distributed hidden layer approached N neurons (N = size of input) the architecture worked more like a memory bank and performed less accurately, that is they appeared to extrapolate my motor functions less precisely.
+for case 3 however, it must be noted that when the number of hidden neurons were exaggerated and each uniformly distributed hidden layer approached N neurons (N = size of input) the architecture appeared to extrapolate my motor functions less precisely; presumably it worked more like a memory bank and buffered all of my data's features. When I decreased the number of hidden neurons across each layer, that is when it tended to process the data more actively, discovering key consistencies across the data.
+
 
 ![Old Architecture](https://user-images.githubusercontent.com/31304414/125176830-987d8a00-e18b-11eb-902d-42e2e01a3dc6.png)
 
