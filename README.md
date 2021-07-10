@@ -2,11 +2,11 @@
 
 ## Demos
 
-### demo UP & DOWN part 1
+### demo UP & DOWN part 1 (w/ audio + webcam)
 
 https://youtu.be/VDQbfN8cseo
 
-### demo UP & DOWN part 2
+### demo UP & DOWN part 2 (w/ audio + webcam)
 
 https://youtu.be/z71WdvkCPH8
 
