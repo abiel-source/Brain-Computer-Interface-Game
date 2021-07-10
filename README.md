@@ -43,6 +43,15 @@ the diagram below depicts the architecture of the neural network currently used 
 
 This architecture was created primarily via experimentation. I experimented with different numbers of hidden layers and the amount of neurons within each layer. 
 
+Throughout my experimentation process, I found the following general cases:
+
+1) models with minimal hidden layers AND minimal hidden neurons did not perform well
+2) models with multiple hidden layers AND  minimal hidden neurons did not perform well
+3) models with multiple hidden layers AND multiple hidden neurons did perform adequately
+4) models with minimal hidden layers AND multiple hidden neurons did ??? (next experiment)
+
+for case 3 however, it must be noted that when the number of hidden neurons were exaggerated and each uniformly distributed hidden layer approached N neurons (N = size of input) the architecture worked more like a memory bank and performed less accurately, that is they appeared to extrapolate my motor functions less precisely.
+
 ![Old Architecture](https://user-images.githubusercontent.com/31304414/125176830-987d8a00-e18b-11eb-902d-42e2e01a3dc6.png)
 
 ### Experimental Architecture
