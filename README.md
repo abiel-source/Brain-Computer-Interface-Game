@@ -50,7 +50,9 @@ Throughout my experimentation process, I found the following general cases:
 3) models with multiple hidden layers AND multiple hidden neurons did perform adequately
 4) models with minimal hidden layers AND multiple hidden neurons did ??? (next experiment)
 
-for case 3 however, it must be noted that when the number of hidden neurons were exaggerated and each uniformly distributed hidden layer approached N neurons (N = size of input) the architecture appeared to extrapolate my motor functions less precisely; presumably it worked more like a memory bank and buffered all of my data's features. When I decreased the number of hidden neurons across each layer, that is when it tended to process the data more actively, discovering key consistencies across the data.
+for case 3 however, it must be noted that when the number of hidden neurons were exaggerated and each uniformly distributed hidden layer approached N neurons (N = size of input) the architecture appeared to extrapolate my motor functions less precisely; presumably it worked more like a memory bank and buffered all of my data's features. 
+
+When I decreased the number of hidden neurons across each layer, that is when it tended to process the data more actively, discovering key consistencies across the data.
 
 
 ![Old Architecture](https://user-images.githubusercontent.com/31304414/125176830-987d8a00-e18b-11eb-902d-42e2e01a3dc6.png)
@@ -59,6 +61,6 @@ for case 3 however, it must be noted that when the number of hidden neurons were
 
 As I gained more knowledge and understanding on the topics of neural networks (from sources online), I recreated the next neural network architecture that I would like to experiment with. The greatest concern I had in the previous neural network architecture was that there were too many hidden layers and hence would decrease my model's accuracy.
 
-In the next model, I plan on decreasing the number of hidden layers (which worked against me before), but in exchange I will increase the number of hidden neurons, testing my previous assumption that more hidden layers were not redundant.
+In the next model, I plan on decreasing the number of hidden layers (which worked against me before), but in exchange I will increase the number of hidden neurons, testing my previous hypothesis that more hidden layers were not redundant.
 
 ![New Architecture](https://user-images.githubusercontent.com/31304414/125176831-9a474d80-e18b-11eb-84b5-74868f70e11e.png)
